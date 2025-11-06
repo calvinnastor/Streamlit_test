@@ -21,9 +21,9 @@ st.bar_chart(df)
 st.area_chart(df)
 
 
-fig, ax = plt.subplots()
-ax.hist(data, bins=15, color = "blue")
-st.pyplot(fig)
+#fig, ax = plt.subplots()
+#ax.hist(data, bins=15, color = "blue")
+#st.pyplot(fig)
 #st.pyplot(np.random.normal(1, 2, size = 5000))
 
 
@@ -53,5 +53,6 @@ st.header("This is a header")
 st.markdown("This is a markdown cell")
 
 st.latex("e=mc^2")
+
 
 
