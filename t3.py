@@ -33,7 +33,7 @@ st.spinner("This is a spinner")
 st.sidebar.title("This is a sidebar title") 
 st.sidebar.header("This is a sidebar text")
 
-st.image("chart_t1.png")
+#st.image("chart_t1.png")
 st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3")
 
@@ -53,3 +53,4 @@ st.header("This is a header")
 st.markdown("This is a markdown cell")
 
 st.latex("e=mc^2")
+
