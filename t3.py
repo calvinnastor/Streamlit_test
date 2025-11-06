@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 st.write("This is my first App in ISTM635")
 st.title("My first app in ISTM635")
@@ -50,4 +51,5 @@ st.time_input("This is a time input")
 
 st.header("This is a header")
 st.markdown("This is a markdown cell")
+
 st.latex("e=mc^2")
